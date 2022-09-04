@@ -1,0 +1,435 @@
+body{
+	
+	box-sizing: border-box;
+	font-family: verdana;
+	margin: 0px; 
+	
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.firstdiv{
+	height: 60px;
+	width: 100%;
+	display: flex;
+	background-color: #00b3b3;
+
+}
+.firstdiv nav{
+	width: 100%;
+	display: flex;
+	/* justify-content: space-between; */
+	height: 40px;
+}
+.firstdiv nav ul{
+	display: flex;
+	width: 60%;
+	height: 25px;
+	margin: 0px;
+	padding-top: 15px;
+
+}
+.firstdiv nav p{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	padding-left:70px; 
+	padding-top:12px;
+	width: 40%;
+	height: 40px;
+	margin: 0px;
+}
+.firstdiv nav ul li{
+	list-style-type: none;
+	padding-left: 20px;
+	color: white;
+	padding-right: 26px;
+}
+.firstdiv nav ul li a{
+	color: white;
+}
+
+.firstdiv nav ul li a:hover{
+	background-color: white;
+	color: #00b3b3;
+	font-size: 22px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.firstdiv nav ul li img{
+	width: 20px;
+	height :20px;
+}
+.home{
+	/* background-color: white; */
+	width: 6vw;
+	height: 4vh;
+	
+}
+.seconddiv {
+	height: 300px;
+	width: 100%;
+	position:relative;
+}
+/* .seconddiv .carousel img{ */
+.seconddiv p{
+	width: 32vw;
+	height: 10vh;
+	text-align: center;
+	background-color: black;
+	opacity: 75%;
+	border-radius: 5px;
+	padding-top: 20px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	right: -0.15%;
+	z-index: 50;
+}
+.thirddiv{
+	height: 440px;
+	background-color: #e6e6e6;
+	margin-top: -20px;
+	display: flex;
+	width: 100%;
+}
+.thirddiv ul{
+	display: flex;
+	width: 100%;
+	padding-top: 100px;
+
+}
+.thirddiv ul li{
+	width: 215px;
+	height:360px;
+	list-style-type: none;
+	margin-left: 25px;
+	text-align: center; 
+
+}
+.thirddiv ul li span{
+	height: 280px;
+	width: 200px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.thirddiv ul li img{
+	text-align: center;
+	padding-top: 20px;
+	height:60px; 
+	width:60px;
+	
+	
+}
+.thirddiv ul li input{
+	height: 40px;
+	width: 100px;
+	position: relative;
+	top: -25px;
+	background-color: #00b3b3;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-weight: bold;
+
+}
+.thirddiv ul li input:hover{
+	background-color: black;
+
+}
+.thirddiv ul li input:focus{
+	background-color: blue;
+}
+.fourthdiv {
+	height: 260px; 
+    background-color: #00e6e6;
+
+}
+.fourthdiv span{
+	display: flex;
+}
+.fourthdiv span p{
+	color: black;
+	font-size: 23px;
+	width: 40%;
+	padding-top: 10px;
+	padding-left: 5%;
+
+}
+.fourthdiv span p small{
+	font-size: 15px;
+}
+.fourthdiv span ul{
+	display: flex;
+	width: 50%;
+
+}
+.fourthdiv span ul section{
+	width: 250px;
+	height:180px;
+}
+.fourthdiv span ul section li{
+	padding-left: 20px;
+	list-style-type: none;
+	padding-top: -15px;
+}
+.fourthdiv span ul section p{
+	color: black;
+}
+.fourthdiv span ul section li a{
+	color: black;
+}
+
+.fourthdiv footer {
+	background-color: #00b3b3;
+	position: relative;
+	top: 25px;
+	height:40px;
+	width: 100%;
+}
+.fourthdiv footer small{
+	width: 30%;
+	padding-left: 70px;
+	height: 35px;
+	display: inline-block;
+	padding-top: 15px;
+	color: white;
+
+}
+.fourthdiv footer img{
+	height: 20px;
+	width: 30px;
+	margin-left: 60%;
+
+
+
+}
+
+/* Mobile Layout: 768px.  */
+ @media only screen and (max-width: 768px){
+
+	body{
+		box-sizing: border-box;
+		margin: 0;
+		height: auto;
+		width: auto;
+	}
+
+	.firstdiv{
+		display: flex;
+		height: 5vh;
+		width: 100vw;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.firstdiv nav{
+		width: 100vw;
+		/* display: flex; */
+		/* justify-content: space-between; */
+		height: 4vh;
+	}
+	.firstdiv nav p{
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: white;
+		padding-left: 1.7rem; 
+		padding-top: 1rem;
+		width: 20vw;
+		height: 3.5vh;
+		margin: 0;
+	}
+	.firstdiv nav ul{
+		width: 80vw;
+		height: 2.5vh;
+		margin: 0px;
+		padding-top: 1em;
+		justify-content: space-evenly;
+	
+	}
+	
+	.firstdiv nav ul li{
+		list-style-type: none;
+		padding-left: 10px;
+		color: white;
+		padding-right: 6px;
+	}
+	.firstdiv nav ul li a{
+		color: white;
+		font-size: 0.85rem;
+	}
+	
+	.firstdiv nav ul li a:hover{
+		background-color: white;
+		color: #00b3b3;
+		font-size: 1.5rem;
+		border-radius: 5px;
+		text-decoration: none;
+	}
+	.firstdiv nav ul li img{
+		width: 20px;
+		height :20px;
+	}
+
+	.home{
+		/* background-color: white; */
+		width: 6vw;
+		height: 4vh;
+		
+	}
+	.seconddiv {
+		height: 35vh;
+		width: 100vw;
+		position:relative;
+	}
+
+	/* .seconddiv .carousel img{ */
+	.seconddiv p{
+		width: 40vw;
+		height: 7vh;
+		text-align: center;
+		background-color: black;
+		/* opacity: 75%; */
+		border-radius: 5px;
+		padding-top: 20px;
+		color: white;
+		position: absolute;
+		bottom: 0;
+		z-index: 40;
+	}
+
+	.thirddiv{
+		height: 50vh;
+		background-color: #e6e6e6;
+		margin-top: -20px;
+		display: flex;
+		width: 100vw;
+	}
+	.thirddiv ul{
+		/* display: flex; */
+		width: 100vw;
+		padding-top: 50px;
+	
+	}
+	.thirddiv ul li{
+		width: 35vw;
+		height: 35vh;
+		list-style-type: none;
+		margin-left: -10px;
+		text-align: center; 
+	
+	}
+	.thirddiv ul li span{
+		height: 33vh;
+		width: 15.5vw;
+		position: relative;
+		margin-left: -25px;
+		/* display: inline-block; */
+		background-color: white;
+		border-radius: 10px;
+	}
+	
+	.thirddiv ul li img{
+		text-align: center;
+		padding-top: 25px;
+		height: 3vh; 
+		width: 3vw;
+		
+		
+	}
+	.thirddiv ul li input{
+		height: 4vh;
+		width: 10vw;
+		position: relative;
+		top: -25px;
+		background-color: #00b3b3;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		font-weight: bold;
+	
+	}
+	.thirddiv ul li input:hover{
+		background-color: black;
+	
+	}
+	.thirddiv ul li input:focus{
+		background-color: blue;
+	}
+
+	.fourthdiv {
+		height: 30vh; 
+		background-color: #00e6e6;
+	
+	}
+	.fourthdiv span{
+		display: flex;
+	}
+	.fourthdiv span p{
+		color: black;
+		font-size: 1.2rem;
+		width: 30vw;
+		padding-top: 10px;
+		padding-left: 5%;
+	
+	}
+	.fourthdiv span p small{
+		font-size: 1rem;
+	}
+	.fourthdiv span ul{
+		display: flex;
+		width: 50%;
+	
+	}
+	.fourthdiv span ul section{
+		width: 25vw;
+		height: 20vh;
+	}
+	.fourthdiv span ul section li{
+		padding-left: 20px;
+		list-style-type: none;
+		padding-top: -15px;
+	}
+	.fourthdiv span ul section p{
+		color: black;
+	}
+	.fourthdiv span ul section li a{
+		color: black;
+	}
+	
+	.fourthdiv footer {
+		background-color: #00b3b3;
+		position: relative;
+		top: 25px;
+		height: 4vh;
+		width: 100vw;
+		display: flex;
+	}
+	.fourthdiv footer small{
+		width: 50vw;
+		padding-left: 50px;
+		height: 3.5vh;
+		display: inline-block;
+		padding-top: 15px;
+		color: white;
+	
+	}
+	.fourthdiv footer img{
+		height: 20px;
+		width: 8vw;
+		position: relative;
+		padding-top: 10px;
+		margin-right: 10%;
+		margin-left: 40%; 
+	
+	
+	
+	}
+
+
+ }
+
